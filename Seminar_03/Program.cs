@@ -3,32 +3,32 @@
 // 14212->нет
 // 12821->да
 // 23432->да
-/*
-int PalindNumber (int num)
-{
-    int newNum = 0;
+
+// int PalindNumber (int num)
+// {
+//     int newNum = 0;
         
-    while(num>0)
-    {    
-        newNum = newNum * 10 + num % 10;
-        num = num / 10;  
-    }
-     return newNum;
-}
-bool Palindrom(int num)
-{    
-    int newNum = PalindNumber(num);
-    Console.WriteLine(newNum); 
+//     while(num>0)
+//     {    
+//         newNum = newNum * 10 + num % 10;
+//         num = num / 10;  
+//     }
+//      return newNum;
+// }
+// bool Palindrom(int num)
+// {    
+//     int newNum = PalindNumber(num);
+//     Console.WriteLine(newNum); 
     
-    return num == newNum;   
-}
+//     return num == newNum;   
+// }
 
-Console.Write("Input a number: ");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(Palindrom(num));
+// Console.WriteLine(Palindrom(num));
 
-*/
+
 //---------------------------------------------------------
 
 
