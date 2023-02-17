@@ -27,7 +27,7 @@ Console.WriteLine($"A number {num1} in a power {num2} is: {PowNum(num1, num2)}")
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
-/*
+
 int SumDigits(int num)
 {
     int sum = 0;
@@ -45,13 +45,13 @@ Console.Write("Input a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"A sum of digits a number {num} is: {SumDigits(num)}");
-*/
+
 //--------------------------------------------
 
 // Задача 3. Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
-
+/*
 int[] CreateArray(int m)
 {
     int[] array = new int[m];
@@ -77,3 +77,4 @@ int m = Convert.ToInt32(Console.ReadLine());
 
 int[] myArray = CreateArray(m);
 PrintArray(myArray);
+*/

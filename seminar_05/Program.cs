@@ -49,7 +49,7 @@ Console.WriteLine(NumOfEvenNumbers(myArray, length));
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-/*
+
 int[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     int[] array = new int[size];
@@ -73,13 +73,10 @@ int SumOfOddNumIndex(int[] myArray)
 {
     int sum = 0;
     int count = 0;
-    for(int i = 0; i < myArray.Length; i++)
+    for(int i = 1; i < myArray.Length; i+=2)
     {
-        if(i % 2 != 0)
-        {
-            count = i;
-            sum = sum + myArray[count];
-        }
+        count = i;
+        sum = sum + myArray[count];
     }
     
     return sum;
@@ -99,12 +96,12 @@ ShowArray(newArray);
 
 int sum = SumOfOddNumIndex(newArray);
 Console.WriteLine($"Sum of odd numbers index is: {sum}");
-*/
+
 //-----------------------------------------
 
 // Задача 3. Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
-
+/*
 double[] CreateRandomArray(int size, int minValue, int maxValue)
 {
     double[] array = new double[size];
@@ -157,3 +154,4 @@ double[] myArray = CreateRandomArray(length, minValue, maxValue);
 ShowArray(myArray);
 
 Console.WriteLine(DiffMaxNumMinNum(myArray));
+*/
