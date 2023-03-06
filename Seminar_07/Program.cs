@@ -183,6 +183,7 @@ void ArithmMeanOfColumn(int[,] array)
     Console.WriteLine();    
 }
 
+
 int[,] newArray = CreateRandom2dArray();
 Show2dArray(newArray);
 ArithmMeanOfColumn(newArray);
